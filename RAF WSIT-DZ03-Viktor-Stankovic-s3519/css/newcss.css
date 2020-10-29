@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Sans-Serif;
+  line-height: 1.5em;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background: rgb(228, 89, 8);
+}
+
+main {
+  padding-bottom: 10010px;
+  margin-bottom: -10000px;
+  float: left;
+  width: 100%;
+  background: rgb(228, 89, 8);
+}
+
+#footer {
+  clear: left;
+  width: 100%;
+  background: rgb(228, 89, 8);
+  text-align: center;
+  padding: 4px 0;
+}
+
+#wrapper {
+  overflow: hidden;
+}
+
+#content {
+  margin-left: 230px;
+}
+
+#proizvodi {
+  margin-left: 230px;
+}
+
+.innertube {
+  margin: 15px;
+}
+
+p {
+  color: rgb(255, 255, 255);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul a {
+  color: white;
+  text-decoration: none;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
